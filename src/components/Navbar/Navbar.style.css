@@ -1,0 +1,12 @@
+.navbar .nav-link:hover {
+  color: #0dcaf0 !important;
+}
+
+.btn-link {
+  color: rgb(153, 153, 153) !important;
+  text-decoration: none !important;
+}
+
+.btn-link:hover {
+  color: white !important;
+}

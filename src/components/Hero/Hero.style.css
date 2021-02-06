@@ -1,0 +1,28 @@
+.hero {
+  min-height: 100vh;
+  background: #212529;
+  padding-top: 100px;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: GOTHICB;
+}
+
+.hero-subtitle {
+  font-size: 30px;
+  color: white;
+  font-family: GOTHIC;
+}
+
+.hero-text {
+  color: gray;
+  text-transform: uppercase;
+  font-family: GOTHIC;
+}
+
+.hero-icon-link:hover {
+  color: #6fafee !important;
+}

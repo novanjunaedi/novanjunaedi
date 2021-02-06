@@ -1,0 +1,23 @@
+.about {
+  min-height: 100vh;
+  background: #212529;
+  padding-top: 100px;
+}
+
+.about-icons {
+  font-size: 40px;
+  color: #0dcaf0;
+}
+
+.about-icons > i {
+  margin-right: 20px;
+}
+
+.about-img {
+  transition: 1s;
+}
+
+.about-img:hover {
+  transform: translate(-20px, -10px);
+  transition: 1s;
+}
