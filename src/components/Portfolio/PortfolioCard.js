@@ -8,7 +8,7 @@ const portfolioData = [
     description: 'This website basically is a website that provides the latest information of travel destination. I built it with my friends to complete school project submission.',
     image: '',
     tags: 'HTML 5, CSS 3, Laravel, Bootstrap',
-    url: '',
+    url: 'https://github.com/novanjunaedi/weesantai',
   },
 
   {
@@ -17,7 +17,7 @@ const portfolioData = [
     description: 'Covid Tracker is a simple web app that provides the latest information of covid-19 spreading around the world. I built this while the beginning of pandemic.',
     image: '',
     tags: 'React, Bootstrap, Material UI',
-    url: '',
+    url: 'https://github.com/novanjunaedi/covidtracker',
   },
   {
     id: '3',
@@ -25,31 +25,31 @@ const portfolioData = [
     description: 'Foodlicious is a simple web that I built using React for completing react js course at Codepolitan.',
     image: '',
     tags: 'React, Bootstrap',
-    url: '',
+    url: 'https://github.com/novanjunaedi/foodlicious',
   },
   {
     id: '4',
     title: 'Soccer Nation',
-    description: '',
+    description: 'Soccer Nation is a webapp that provides latest information of Premiere league. I built this for Dicoding Progressive Web Apps Submission.',
     image: '',
     tags: 'HTML 5, CSS 3, Javascript, Materialize CSS',
-    url: '',
+    url: 'https://github.com/novanjunaedi/soccernation-v2',
   },
   {
     id: '5',
     title: 'Eatzy',
-    description: '',
+    description: 'Eatzy is a simple culinary webapp. You can find restaurants for hangout and give a comment in the restaurant. I built this for Dicoding MFWDE course.',
     image: '',
     tags: 'HTML 5, CSS 3, Javascript, Webpack',
-    url: '',
+    url: 'https://github.com/novanjunaedi/eatzy-apps',
   },
   {
     id: '6',
     title: 'Laravel Codespace',
-    description: '',
+    description: 'It is a simple geolocation website that I built to complete one of Codepolitan course in 2020',
     image: '',
     tags: 'Laravel, Bootstrap, Here Maps API',
-    url: '',
+    url: 'https://github.com/novanjunaedi/laravel-codespace',
   },
 ];
 

@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="row" data-aos="fade-up">
           <div className="col text-center">
             <h2 className="section-title">Get in touch</h2>
-            <p className="section-text w-50 mx-auto">Although I&apos;m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!</p>
+            <p className="section-text lead w-50 mx-auto">For any bussiness inquiries, questions or if you wanna just say hi, you can leave me an email, I&apos;ll try my best to get back to you!</p>
             <a className="btn btn-outline-info my-5 px-5 py-3 rounded-pill" href="mailto:junaedinovan98@gmail.com">Say Hi!</a>
 
             <h5 className="section-title mt-5">Find me on social media</h5>

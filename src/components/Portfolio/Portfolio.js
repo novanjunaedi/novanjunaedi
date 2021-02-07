@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="col-md-5">
                   <div className="card-body py-5">
                     <h5 className="card-title">Arspira</h5>
-                    <p className="section-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="section-text">Arspira is a platform for highschool students to communicate and discuss something in general. It also provides informations such as student loan from university and so on. I built this website with developer team called Devseiko for ARS University.</p>
                     <p className="card-text"><small className="text-info">HTML 5, CSS 3, Laravel, Bootstrap</small></p>
                     <a className="link text-info" href="https://arspira.com">
                       <i className="fas fa-external-link-alt" />
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 <div className="col-md-5">
                   <div className="card-body py-5">
                     <h5 className="card-title">Devseiko</h5>
-                    <p className="section-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p className="section-text">This website basically is a portfolio of projects we build. You can find out what we can do and also there&apos;s a lot of articles about tech and programming stuff.</p>
                     <p className="card-text"><small className="text-info">HTML 5, CSS 3, Laravel, Bootstrap</small></p>
                     <a className="link text-info" href="!#">
                       <i className="fas fa-external-link-alt" />

@@ -113,7 +113,7 @@ const Experience = () => {
                         <h5 className="section-title">Fasilitator Program Indosat Ooredoo Digital Camp 2020</h5>
                         <p className="section-text">March - May 2020</p>
                         <p className="section-text">Organized by Dicoding, Indosat Ooredoo.</p>
-                        <a className="link text-info" href="!#">
+                        <a className="link text-info" href="https://drive.google.com/file/d/1bZCaYvP2d-0gLMqAV5IDbW-K46V7A5WZ/view?usp=sharing">
                           View Certificate
                           <i className="fas fa-external-link-alt ms-2" />
                         </a>
