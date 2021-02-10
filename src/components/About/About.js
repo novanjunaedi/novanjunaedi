@@ -16,6 +16,10 @@ const About = () => {
             <h2 className="section-title">About me</h2>
             <p className="section-text lead">
               Hi, my name is Novan Junaedi a web developer based in Bandung, West Java, Indonesia.
+              I&apos;m a final semester student at
+              {' '}
+              <a className="text-info link" href="https://ars.ac.id">ARS University</a>
+              .
             </p>
             <p className="section-text lead">
               I really enjoy when I coding a program specially frontend because
@@ -23,7 +27,7 @@ const About = () => {
               My goals are to create usefull applications and build a startup in the future.
             </p>
             <p className="section-text lead">
-              These are some of tool and technologies that I used recently
+              These are some of tools and technologies that I used recently
             </p>
             <div className="about-icons text-center text-md-start">
               <i className="fab fa-html5" />

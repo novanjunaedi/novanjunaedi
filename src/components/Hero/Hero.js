@@ -11,11 +11,11 @@ const Hero = () => (
           <h2 className="hero-subtitle">Hi, I&apos;m</h2>
           <h1 className="hero-title">Novan Junaedi</h1>
           <p className="hero-text lead">Junior Frontend Developer | UI Enthusiast.</p>
-          <div className="my-4">
+          <div className="d-grid d-md-block mt-4 mx-auto gap-2">
             <a className="btn btn-outline-info rounded-pill py-3 px-5" href="mailto:junaedinovan98@gmail.com">Get in touch</a>
           </div>
           <div className="mt-5 py-3 text-center text-md-start">
-            <a className="hero-icon-link text-white ms-1 me-4" href="https://instagram.com/novanjunaedi" alt="Instagram">
+            <a className="hero-icon-link text-white mx-4 ms-md-1 me-md-4" href="https://instagram.com/novanjunaedi" alt="Instagram">
               <i className="fab fa-instagram" />
             </a>
             <a className="hero-icon-link text-white mx-4" href="https://facebook.com/novanjunaedi98" alt="Facebook">

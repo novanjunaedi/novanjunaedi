@@ -6,4 +6,10 @@
 
 .portfolio-card-bg {
   background-color: #2e343a !important;
+  transition: 0.5s;
+}
+
+.portfolio-card-bg:hover {
+  transform: translate(0px, -10px);
+  transition: 0.5s;
 }
