@@ -18,7 +18,7 @@ const About = () => {
               Hi, my name is Novan Junaedi a web developer based in Bandung, West Java, Indonesia.
               I&apos;m a final semester student at
               {' '}
-              <a className="text-info link" href="https://ars.ac.id">ARS University</a>
+              <a className="text-info link" target="_blank" rel="noopener noreferrer" href="https://ars.ac.id">ARS University</a>
               .
             </p>
             <p className="section-text lead">

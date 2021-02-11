@@ -47,7 +47,7 @@ const CertificateList = () => (
             {data.date}
           </div>
         </div>
-        <a className="link text-info" href={data.url}>
+        <a className="link text-info" target="_blank" rel="noopener noreferrer" href={data.url}>
           View Certificate
           <i className="fas fa-external-link-alt ms-2" />
         </a>

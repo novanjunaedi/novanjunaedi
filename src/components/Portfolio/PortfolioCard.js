@@ -64,7 +64,7 @@ const PortfolioCard = () => (
                 <i className="fas fa-code text-info" style={{ fontSize: 35 }} />
               </div>
               <div className="col-2 mx-auto py-4">
-                <a className="link text-white" href={data.url}>
+                <a className="link text-white" target="_blank" rel="noopener noreferrer" href={data.url}>
                   <i className="fas fa-external-link-alt" />
                 </a>
               </div>

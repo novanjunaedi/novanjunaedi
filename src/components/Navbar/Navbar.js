@@ -30,7 +30,7 @@ const Navbar = () => (
               <a className="nav-link" href="#contact">Contact</a>
             </li>
             <li className="nav-item mx-2">
-              <a className="btn-link btn btn-outline-info px-3" href="https://drive.google.com/file/d/1XRV7zAC7s1XORWrKMgr0rpF4W4GHmPPf/view?usp=sharing">Resume</a>
+              <a className="btn-link btn btn-outline-info px-3" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XRV7zAC7s1XORWrKMgr0rpF4W4GHmPPf/view?usp=sharing">Resume</a>
             </li>
           </ul>
         </div>

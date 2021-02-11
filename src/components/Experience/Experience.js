@@ -30,7 +30,7 @@ const Experience = () => {
                         <h4 className="section-title">
                           Forum Maintainer at
                           {' '}
-                          <a className="link text-info" href="https://codepolitan.com">Codepolitan</a>
+                          <a className="link text-info" target="_blank" rel="noopener noreferrer" href="https://codepolitan.com">Codepolitan</a>
                           {' '}
                           (Part-time)
                         </h4>
@@ -57,7 +57,7 @@ const Experience = () => {
                         <h4 className="section-title">
                           Forum Maintainer, Article Writer at
                           {' '}
-                          <a className="link text-info" href="https://codepolitan.com">Codepolitan</a>
+                          <a className="link text-info" target="_blank" rel="noopener noreferrer" href="https://codepolitan.com">Codepolitan</a>
                           {' '}
                           (Internship)
                         </h4>
@@ -87,7 +87,7 @@ const Experience = () => {
                     <ul className="timeline">
                       <CertificateList />
                     </ul>
-                    <a className="btn btn-outline-info px-3 mt-4 ms-5" href="https://www.linkedin.com/in/novanjunaedi/">More Certificates</a>
+                    <a className="btn btn-outline-info px-3 mt-4 ms-5" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/novanjunaedi/">More Certificates</a>
                   </div>
                   <div className="tab-pane fade" id="v-pills-volunteering" role="tabpanel" aria-labelledby="v-pills-volunteering-tab">
                     <ul className="timeline">
@@ -95,7 +95,7 @@ const Experience = () => {
                         <h5 className="section-title">Volunteer Re-Cloud Challenges Indonesia 2021</h5>
                         <p className="section-text">January - February 2021</p>
                         <p className="section-text">Organized by Codepolitan, Alibaba Cloud.</p>
-                        <a className="link text-info" href="!#">
+                        <a className="link text-info" target="_blank" rel="noopener noreferrer" href="!#">
                           View Certificate
                           <i className="fas fa-external-link-alt ms-2" />
                         </a>
@@ -104,7 +104,7 @@ const Experience = () => {
                         <h5 className="section-title">Asisten Mentor Pelatihan Instruktur Swasta Program Junior Web Programmer 2020</h5>
                         <p className="section-text">23 November - 29 November 2020</p>
                         <p className="section-text">Organized by Codepolitan, Bina Intala (Kemnaker).</p>
-                        <a className="link text-info" href="!#">
+                        <a className="link text-info" target="_blank" rel="noopener noreferrer" href="!#">
                           View Certificate
                           <i className="fas fa-external-link-alt ms-2" />
                         </a>
@@ -113,7 +113,7 @@ const Experience = () => {
                         <h5 className="section-title">Fasilitator Program Indosat Ooredoo Digital Camp 2020</h5>
                         <p className="section-text">March - May 2020</p>
                         <p className="section-text">Organized by Dicoding, Indosat Ooredoo.</p>
-                        <a className="link text-info" href="https://drive.google.com/file/d/1bZCaYvP2d-0gLMqAV5IDbW-K46V7A5WZ/view?usp=sharing">
+                        <a className="link text-info" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1bZCaYvP2d-0gLMqAV5IDbW-K46V7A5WZ/view?usp=sharing">
                           View Certificate
                           <i className="fas fa-external-link-alt ms-2" />
                         </a>

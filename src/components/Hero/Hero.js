@@ -15,16 +15,16 @@ const Hero = () => (
             <a className="btn btn-outline-info rounded-pill py-3 px-5" href="mailto:junaedinovan98@gmail.com">Get in touch</a>
           </div>
           <div className="mt-5 py-3 text-center text-md-start">
-            <a className="hero-icon-link text-white mx-4 ms-md-1 me-md-4" href="https://instagram.com/novanjunaedi" alt="Instagram">
+            <a className="hero-icon-link text-white mx-4 ms-md-1 me-md-4" target="_blank" rel="noopener noreferrer" href="https://instagram.com/novanjunaedi" alt="Instagram">
               <i className="fab fa-instagram" />
             </a>
-            <a className="hero-icon-link text-white mx-4" href="https://facebook.com/novanjunaedi98" alt="Facebook">
+            <a className="hero-icon-link text-white mx-4" target="_blank" rel="noopener noreferrer" href="https://facebook.com/novanjunaedi98" alt="Facebook">
               <i className="fab fa-facebook" />
             </a>
-            <a className="hero-icon-link text-white mx-4" href="https://linkedin.com/in/novanjunaedi" alt="LinkedIn">
+            <a className="hero-icon-link text-white mx-4" target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/novanjunaedi" alt="LinkedIn">
               <i className="fab fa-linkedin" />
             </a>
-            <a className="hero-icon-link text-white mx-4" href="https://github.com/novanjunaedi" alt="Github">
+            <a className="hero-icon-link text-white mx-4" target="_blank" rel="noopener noreferrer" href="https://github.com/novanjunaedi" alt="Github">
               <i className="fab fa-github" />
             </a>
           </div>
