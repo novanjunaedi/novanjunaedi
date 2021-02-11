@@ -24,7 +24,6 @@ const About = () => {
             <p className="section-text lead">
               I really enjoy when I coding a program specially frontend because
               I like to make something that beautifull to see.
-              My goals are to create usefull applications and build a startup in the future.
             </p>
             <p className="section-text lead">
               These are some of tools and technologies that I used recently
