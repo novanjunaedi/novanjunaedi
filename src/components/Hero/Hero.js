@@ -30,7 +30,7 @@ const Hero = () => (
           </div>
         </div>
         <div className="col-lg-6 my-5 d-none d-lg-block">
-          <img src={heroImg} className="img-fluid" alt="Hero" />
+          <img src={heroImg} className="img-fluid" loading="lazy" alt="Hero" />
         </div>
       </div>
     </div>

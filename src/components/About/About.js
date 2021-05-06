@@ -39,7 +39,7 @@ const About = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <img src={aboutImg} className="img-fluid about-img" alt="Novan Junaedi" />
+            <img src={aboutImg} className="img-fluid about-img" loading="lazy" alt="Novan Junaedi" />
           </div>
         </div>
       </div>

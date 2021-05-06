@@ -1,27 +1,32 @@
 const NavItems = [
   {
+    id: 1,
     name: 'Home',
-    url: '#top',
+    url: '/#top',
     cName: 'nav-link',
   },
   {
+    id: 2,
     name: 'About',
-    url: '#about',
+    url: '/#about',
     cName: 'nav-link',
   },
   {
+    id: 3,
     name: 'Experience',
-    url: '#experience',
+    url: '/#experience',
     cName: 'nav-link',
   },
   {
+    id: 4,
     name: 'Work',
-    url: '#portfolio',
+    url: '/#portfolio',
     cName: 'nav-link',
   },
   {
+    id: 5,
     name: 'Contact',
-    url: '#contact',
+    url: '/#contact',
     cName: 'nav-link',
   },
 ];

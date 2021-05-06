@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import BounceLoader from 'react-spinners/BounceLoader';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-import Navbar from './components/Navbar/Navbar';
-import Homepage from './pages/Homepage/Homepage';
 import Logo from './assets/img/logo.png';
+import Routes from './Routes/Routes';
+import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -26,11 +27,11 @@ const App = () => {
           </div>
         )
         : (
-          <>
+          <Router>
             <Navbar />
-            <Homepage />
+            <Routes />
             <Footer />
-          </>
+          </Router>
         )}
     </div>
   );
