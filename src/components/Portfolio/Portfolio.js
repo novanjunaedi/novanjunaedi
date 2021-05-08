@@ -3,6 +3,11 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './Portfolio.style.css';
 import { NavLink } from 'react-router-dom';
+
+// Swiper
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper.scss';
+
 import PortfolioCard from './PortfolioCard';
 import PortfolioData from '../../assets/data/PortfolioData';
 import PortfolioHighlight from './PortfolioHighlight';
@@ -20,16 +25,24 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="row my-4" data-aos="fade-up">
-          {PortfolioData.map((portfolio) => (
-            <PortfolioHighlight
-              key={portfolio.id}
-              img={portfolio.image}
-              title={portfolio.title}
-              description={portfolio.description}
-              tags={portfolio.tags}
-              url={portfolio.url}
-            />
-          )).reverse().slice(0, 1)}
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+          >
+            {PortfolioData.map((portfolio) => (
+              <SwiperSlide>
+                <PortfolioHighlight
+                  key={portfolio.id}
+                  img={portfolio.image}
+                  title={portfolio.title}
+                  description={portfolio.description}
+                  tags={portfolio.tags}
+                  url={portfolio.url}
+                  github={portfolio.github}
+                />
+              </SwiperSlide>
+            )).reverse().slice(0, 3)}
+          </Swiper>
         </div>
 
         <div className="row my-5 pt-5" data-aos="fade-up">

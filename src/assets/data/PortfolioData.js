@@ -1,4 +1,6 @@
 import landofgameImg from '../img/log.jpg';
+import arspiraImg from '../img/arspira.jpg';
+import devseikoImg from '../img/devseiko.jpg';
 
 const portfolioData = [
   {
@@ -62,7 +64,7 @@ const portfolioData = [
     id: 7,
     title: 'Arspira',
     description: 'Arspira is a platform for highschool students to communicate and discuss. It also provides informations such as events and articles. My friends and I built this website for ARS University.',
-    image: '',
+    image: arspiraImg,
     tags: 'Laravel, Bootstrap',
     url: 'https://arspira.com',
     year: '2021',
@@ -71,7 +73,7 @@ const portfolioData = [
     id: 8,
     title: 'Devseiko',
     description: 'This website basically is a portfolio of projects we build. You can find out what we can do and also there is a lot of articles about tech and programming stuff.',
-    image: '',
+    image: devseikoImg,
     tags: 'Laravel, Bootstrap',
     github: 'https://github.com/Devseiko-Project/devseiko',
     year: '2021',
