@@ -27,7 +27,9 @@ const Portfolio = () => {
         <div className="row my-4" data-aos="fade-up">
           <Swiper
             spaceBetween={50}
-            slidesPerView={1}
+            slidesPerView="auto"
+            loop
+            grabCursor
           >
             {PortfolioData.map((portfolio) => (
               <SwiperSlide>
@@ -60,7 +62,7 @@ const Portfolio = () => {
               description={portfolio.description}
               tags={portfolio.tags}
             />
-          )).reverse().slice(1, 7)}
+          )).reverse().slice(3, 9)}
           <div className="col text-center">
             <NavLink className="btn btn-outline-info my-5 px-4 py-3 rounded-pill" to="/portfolios">Show more</NavLink>
           </div>

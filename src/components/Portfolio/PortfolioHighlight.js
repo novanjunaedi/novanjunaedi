@@ -7,7 +7,7 @@ const PortfolioHighlight = (props) => (
         <div className="row g-0">
           <div className="col-lg-7">
             <a target="_blank" rel="noopener noreferrer" href={props.url}>
-              <img src={props.img} loading="lazy" className="img-fluid" alt={props.title} />
+              <img src={props.img} loading="lazy" className="img-fluid rounded" alt={props.title} />
             </a>
           </div>
           <div className="col-lg-5">

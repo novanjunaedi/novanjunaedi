@@ -25,7 +25,7 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="d-grid gap-2 mx-5 mx-lg-2">
-              <a className="btn-link btn btn-outline-info px-3" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XRV7zAC7s1XORWrKMgr0rpF4W4GHmPPf/view?usp=sharing">Resume</a>
+              <a className="btn-link btn btn-outline-info px-3" target="_blank" rel="noopener noreferrer" href="http://bit.ly/novanjunaedi_resume">Resume</a>
             </div>
           </div>
         </div>
