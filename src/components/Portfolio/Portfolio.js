@@ -32,9 +32,8 @@ const Portfolio = () => {
             grabCursor
           >
             {PortfolioData.map((portfolio) => (
-              <SwiperSlide>
+              <SwiperSlide key={portfolio.id}>
                 <PortfolioHighlight
-                  key={portfolio.id}
                   img={portfolio.image}
                   title={portfolio.title}
                   description={portfolio.description}

@@ -28,3 +28,17 @@ self.addEventListener('fetch', (event) => {
       }),
   );
 });
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => Promise.all(
+      cacheNames.map((cacheName) => {
+        if (cacheName !== CACHE_NAME && CACHE_NAME.startsWith('novanjunaedi-v')) {
+          console.log('ServiceWorker: old cache deleted');
+          return caches.delete(cacheName);
+        }
+        return console.log('New cache has been added.');
+      }),
+    )),
+  );
+});
