@@ -15,7 +15,7 @@ const About = () => {
           <div className="col-lg-7">
             <h2 className="section-title">About me</h2>
             <p className="section-text lead">
-              Hi, my name is Novan Junaedi a web developer and frelancer based in Bandung,
+              Hi, my name is Novan Junaedi a web developer and freelancer based in Bandung,
               West Java, Indonesia. I&apos;m also a final semester student at
               {' '}
               <a

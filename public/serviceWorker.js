@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-globals */
-const CACHE_NAME = 'novanjunaedi-v1';
+const CACHE_NAME = new Date().toString();
 const urlsToCache = [
   '/',
   '/asset-manifest.json',
@@ -39,7 +39,7 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => Promise.all(
       cacheNames.map((cacheName) => {
-        if (cacheName !== CACHE_NAME && CACHE_NAME.startsWith('novanjunaedi-v')) {
+        if (cacheName !== CACHE_NAME) {
           console.log('ServiceWorker: old cache deleted');
           return caches.delete(cacheName);
         }
