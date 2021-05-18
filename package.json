@@ -9,6 +9,7 @@
     "aos": "^3.0.0-beta.6",
     "babel-eslint": "^10.1.0",
     "bootstrap": "^5.0.0-beta1",
+    "cra-template-pwa": "^1.0.3",
     "eslint-config-react-app": "^6.0.0",
     "node-sass": "4.14.1",
     "react": "^17.0.1",
@@ -17,7 +18,19 @@
     "react-scripts": "4.0.1",
     "react-spinners": "^0.10.6",
     "swiper": "^6.5.9",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.3",
+    "workbox-broadcast-update": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-core": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-google-analytics": "^5.1.3",
+    "workbox-navigation-preload": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-range-requests": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3",
+    "workbox-streams": "^5.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
