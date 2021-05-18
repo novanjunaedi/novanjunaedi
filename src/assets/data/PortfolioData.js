@@ -80,7 +80,7 @@ const portfolioData = [
   },
   {
     id: 9,
-    title: 'Land of Game',
+    title: 'Land of Game (On Process)',
     description: 'Land of game is a game database that I built using React and RAWG API.',
     image: landofgameImg,
     tags: 'React, Bootstrap, RAWG API',

@@ -2,7 +2,13 @@
 const CACHE_NAME = 'novanjunaedi-v1';
 const urlsToCache = [
   '/',
+  '/asset-manifest.json',
+  '/favicon.ico',
   '/index.html',
+  '/logo192.png',
+  '/logo512.png',
+  '/manifest.json',
+  '/robots.txt',
 ];
 self.addEventListener('install', (event) => {
   // Perform install steps
