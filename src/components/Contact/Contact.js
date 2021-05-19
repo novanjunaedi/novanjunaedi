@@ -24,6 +24,9 @@ const Contact = () => {
               <a className="hero-icon-link text-white mx-4" href="https://facebook.com/novanjunaedi98" alt="Facebook">
                 <i className="fab fa-facebook" />
               </a>
+              <a className="hero-icon-link text-white mx-4" href="https://twitter.com/novanjunaedi98" alt="Twitter">
+                <i className="fab fa-twitter" />
+              </a>
               <a className="hero-icon-link text-white mx-4" href="https://linkedin.com/in/novanjunaedi" alt="LinkedIn">
                 <i className="fab fa-linkedin" />
               </a>
