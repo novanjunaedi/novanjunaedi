@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Logo from './assets/img/logo.png';
 import Routes from './Routes/Routes';
 import Navbar from './components/Navbar/Navbar';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
         )
         : (
           <Router>
+            <ScrollToTop />
             <Navbar />
             <Routes />
             <Footer />

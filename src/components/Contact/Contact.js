@@ -18,19 +18,19 @@ const Contact = () => {
 
             <h5 className="section-title mt-5">Find me on social media</h5>
             <div className="py-3">
-              <a className="hero-icon-link text-white mx-4" href="https://instagram.com/novanjunaedi" alt="Instagram">
+              <a className="hero-icon-link text-white mx-3" href="https://instagram.com/novanjunaedi" alt="Instagram">
                 <i className="fab fa-instagram" />
               </a>
-              <a className="hero-icon-link text-white mx-4" href="https://facebook.com/novanjunaedi98" alt="Facebook">
+              <a className="hero-icon-link text-white mx-3" href="https://facebook.com/novanjunaedi98" alt="Facebook">
                 <i className="fab fa-facebook" />
               </a>
-              <a className="hero-icon-link text-white mx-4" href="https://twitter.com/novanjunaedi98" alt="Twitter">
+              <a className="hero-icon-link text-white mx-3" href="https://twitter.com/novanjunaedi98" alt="Twitter">
                 <i className="fab fa-twitter" />
               </a>
-              <a className="hero-icon-link text-white mx-4" href="https://linkedin.com/in/novanjunaedi" alt="LinkedIn">
+              <a className="hero-icon-link text-white mx-3" href="https://linkedin.com/in/novanjunaedi" alt="LinkedIn">
                 <i className="fab fa-linkedin" />
               </a>
-              <a className="hero-icon-link text-white mx-4" href="https://github.com/novanjunaedi" alt="Github">
+              <a className="hero-icon-link text-white mx-3" href="https://github.com/novanjunaedi" alt="Github">
                 <i className="fab fa-github" />
               </a>
             </div>
