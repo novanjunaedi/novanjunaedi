@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.style.css';
 import Logo from '../../assets/img/logo.png';
 import NavItems from './NavItems';
@@ -20,7 +21,7 @@ const Navbar = () => {
             <ul className="navbar-nav text-center text-lg-start ms-auto mb-2 mb-lg-0">
               {NavItems.map((item) => (
                 <li className="nav-item mx-2" key={item.id}>
-                  <a className={item.cName} href={item.url}>{item.name}</a>
+                  <Link className={item.cName} to={item.url}>{item.name}</Link>
                 </li>
               ))}
             </ul>
