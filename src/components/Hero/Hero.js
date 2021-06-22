@@ -8,8 +8,8 @@ const Hero = () => (
     <div className="container px-5">
       <div className="row mt-5 justify-content-between" data-aos="fade-in">
         <div className="col-lg-6 my-5">
-          <h2 className="hero-subtitle">Hi, I&apos;m</h2>
-          <h1 className="hero-title">Novan Junaedi</h1>
+          <h1 className="hero-subtitle">Hi, I&apos;m</h1>
+          <h2 className="hero-title">Novan Junaedi</h2>
           <p className="hero-text lead">Junior Frontend Developer | UI Enthusiast.</p>
           <div className="d-grid d-md-block mt-4 mx-auto gap-2">
             <a className="btn btn-outline-info rounded-pill py-3 px-5" href="mailto:junaedinovan98@gmail.com">Get in touch</a>

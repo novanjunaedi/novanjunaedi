@@ -1,6 +1,7 @@
 import landofgameImg from '../img/log.jpg';
 import arspiraImg from '../img/arspira.jpg';
 import devseikoImg from '../img/devseiko.jpg';
+import kreatifViesual from '../img/kreatifvisual.jpg';
 
 const portfolioData = [
   {
@@ -86,6 +87,16 @@ const portfolioData = [
     tags: 'React, Bootstrap, RAWG API',
     url: 'https://landofgame-demo.web.app',
     github: 'https://github.com/novanjunaedi/landofgame',
+    year: '2021',
+  },
+  {
+    id: 10,
+    title: 'Visual Kreatif',
+    description: 'Visual Kreatif is a wedding invitation service based in Bandung Indonesia. I worked on frontend side that creating layouts and templates.',
+    image: kreatifViesual,
+    tags: 'Laravel, Bootstrap',
+    url: 'http://147.139.38.79:81/',
+    github: '',
     year: '2021',
   },
 ];
