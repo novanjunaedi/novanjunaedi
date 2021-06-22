@@ -6,11 +6,22 @@ import NavItems from './NavItems';
 
 const Navbar = () => {
   const [closeIcon, setCloseIcon] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const addShadow = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener('scroll', addShadow);
 
   return (
     <section>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div className="container">
+      <nav className={navbar ? 'navbar navbar-expand-lg navbar-dark shadow bg-dark fixed-top' : 'navbar navbar-expand-lg navbar-dark bg-dark fixed-top'}>
+        <div className="container py-2">
           <div className="navbar-brand">
             <img src={Logo} width="180" alt="Novan Junaedi" />
           </div>
