@@ -27,7 +27,7 @@ const Portfoliopage = () => (
                 <td>{portfolio.title}</td>
                 <td className="d-none d-md-block">{portfolio.tags}</td>
                 <td>
-                  {portfolio.url !== '' ? (
+                  {portfolio.url !== null ? (
                     <a className="link text-info" href={portfolio.url} target="_blank" rel="noreferrer">
                       <i className="fas me-2 fa-external-link-alt" />
                     </a>
@@ -35,7 +35,7 @@ const Portfoliopage = () => (
                     <i className="fas me-2 fa-external-link-alt text-muted" />
                   )}
                   |
-                  { portfolio.github !== ''
+                  { portfolio.github !== null
                     ? (
                       <a className="link text-info" href={portfolio.github} target="_blank" rel="noreferrer">
                         <i className="fab ms-2 fa-github" />
