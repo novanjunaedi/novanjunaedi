@@ -15,13 +15,21 @@ const PortfolioHighlight = (props) => (
               <h5 className="card-title">{props.title}</h5>
               <p className="section-text">{props.description}</p>
               <p className="card-text"><small className="text-info">{props.tags}</small></p>
-              <a className="link text-info" target="_blank" rel="noopener noreferrer" href={props.url}>
-                <i className="fas fa-external-link-alt me-3" />
-              </a>
+              {props.url !== '' ? (
+                <a className="link text-info" target="_blank" rel="noopener noreferrer" href={props.url}>
+                  <i className="fas fa-external-link-alt me-3" />
+                </a>
+              ) : (
+                <i className="fas fa-external-link-alt text-muted me-3" />
+              )}
               |
-              <a className="link text-info" target="_blank" rel="noopener noreferrer" href={props.github}>
-                <i className="fab fa-github ms-3" />
-              </a>
+              {props.github !== '' ? (
+                <a className="link text-info" target="_blank" rel="noopener noreferrer" href={props.github}>
+                  <i className="fab fa-github ms-3" />
+                </a>
+              ) : (
+                <i className="fab fa-github text-muted ms-3" />
+              )}
             </div>
           </div>
         </div>

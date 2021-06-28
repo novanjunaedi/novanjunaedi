@@ -27,13 +27,22 @@ const Portfoliopage = () => (
                 <td>{portfolio.title}</td>
                 <td className="d-none d-md-block">{portfolio.tags}</td>
                 <td>
-                  <a className="link text-info" href={portfolio.url} target="_blank" rel="noreferrer">
-                    <i className="fas me-2 fa-external-link-alt" />
-                  </a>
+                  {portfolio.url !== '' ? (
+                    <a className="link text-info" href={portfolio.url} target="_blank" rel="noreferrer">
+                      <i className="fas me-2 fa-external-link-alt" />
+                    </a>
+                  ) : (
+                    <i className="fas me-2 fa-external-link-alt text-muted" />
+                  )}
                   |
-                  <a className="link text-info" href={portfolio.github} target="_blank" rel="noreferrer">
-                    <i className="fab ms-2 fa-github" />
-                  </a>
+                  { portfolio.github !== ''
+                    ? (
+                      <a className="link text-info" href={portfolio.github} target="_blank" rel="noreferrer">
+                        <i className="fab ms-2 fa-github" />
+                      </a>
+                    ) : (
+                      <i className="fab ms-2 fa-github text-muted" />
+                    )}
                 </td>
               </tr>
             )).reverse()}

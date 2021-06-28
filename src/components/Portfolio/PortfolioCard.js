@@ -10,12 +10,21 @@ const PortfolioCard = (props) => (
             <i className="fas fa-code text-info" style={{ fontSize: 35 }} />
           </div>
           <div className="col-3 ms-auto py-4">
-            <a className="link text-white" target="_blank" rel="noopener noreferrer" href={props.url}>
-              <i className="fas me-3 fa-external-link-alt" />
-            </a>
-            <a className="link text-white" target="_blank" rel="noopener noreferrer" href={props.github}>
-              <i className="fab fa-github" />
-            </a>
+            {props.url !== '' ? (
+              <a className="link text-white" target="_blank" rel="noopener noreferrer" href={props.url}>
+                <i className="fas me-3 fa-external-link-alt" />
+              </a>
+            ) : (
+              <i className="fas me-3 fa-external-link-alt text-muted" />
+            )}
+            |
+            {props.github !== '' ? (
+              <a className="link text-white" target="_blank" rel="noopener noreferrer" href={props.github}>
+                <i className="fab fa-github" />
+              </a>
+            ) : (
+              <i className="fab fa-github text-muted" />
+            )}
           </div>
         </div>
       </div>
