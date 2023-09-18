@@ -2,7 +2,7 @@
 ![Logo](https://www.novanjunaedi.com/_next/image?url=%2Fassets%2Fimg%2Flogo.png&w=256&q=75)
 
 
-# Hi, I'm Novan! 👋
+# Hi everyone, welcome to my Profile! 👋
 
 ## 🚀 About Me
 I'm a frontend developer and freelancer based in Bandung, West Java, Indonesia. Currently, I'm focused on building and maintaining website at Codepolitan. I help companies to build scale able web apps and user friendly interfaces to give users the best digital experience while accessing the website.
