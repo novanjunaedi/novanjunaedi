@@ -1,7 +1,3 @@
-
-![Logo](https://www.novanjunaedi.com/_next/image?url=%2Fassets%2Fimg%2Flogo.png&w=256&q=75)
-
-
 # Hi everyone, welcome to my Profile! 👋
 
 ## 🚀 About Me
